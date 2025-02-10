@@ -1,21 +1,18 @@
 ﻿#include <iostream>
 #include <vector>
+#include <algorithm>
+#include <deque>
 
 template <typename T>
 void print(T container) {
-	int i = 0;
 	for (auto elem : container) {
-		std::cout << i << ":\t" << elem << '\n';
-		++i;
+		std::cout << elem << ' ';
 	}
+	std::cout << '\n';
 }
 
 int main()
 {
-	std::vector<double> v;
-	v.push_back(0.25);
-	for (int i = 0; i < 100; ++i) {
-		v.push_back((v[i] + 0.1) * 1.06);
-	}
-	print(v);
+	std::deque<int> d;
+	print(d);
 }
