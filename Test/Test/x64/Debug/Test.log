@@ -1,2 +1,2 @@
 ﻿  Test.cpp
-  Test.vcxproj -> C:\Users\danil\Desktop\backend_course\Test\x64\Debug\Test.exe
+C:\Users\danil\Desktop\backend_course\Test\Test.cpp(9,9): error C2429: для функция языка "структурированные привязки" нужен флаг компилятора "/std:c++17" 
